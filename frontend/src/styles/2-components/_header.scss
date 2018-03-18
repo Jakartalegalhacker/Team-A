@@ -1,0 +1,41 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top:15px;
+  &-left{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+  }
+  &-center{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    margin:0 auto;
+  }
+  &-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+  }
+}
+.navbar{
+  &-link{
+    font-size: 16px;
+    line-height: 18px;
+    padding: 20px 30px;
+    color: #171717;
+    opacity: 0.17;
+  }
+}
+
+.navbar_brand{
+  &:visited{
+    color: unset;
+  }
+  i{
+    color: #4FACFE,
+  }
+}

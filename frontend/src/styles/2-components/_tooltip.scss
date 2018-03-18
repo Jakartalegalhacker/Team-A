@@ -1,0 +1,77 @@
+/* Base styles for the element that has a tooltip */
+
+[data-tooltip],
+.tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+
+/* Base styles for the entire tooltip */
+
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+    position: absolute;
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in, visibility 0.2s ease-in, -webkit-transform 0.2s;
+    -moz-transition: opacity 0.2s ease-in, visibility 0.2s ease-in, -moz-transform 0.2s;
+    transition: opacity 0.2s ease-in, visibility 0.2s ease-in, transform 0.2s;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    pointer-events: none;
+}
+
+
+/* Show the entire tooltip on hover and focus */
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+.tooltip:hover:before,
+.tooltip:hover:after {
+    visibility: visible;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+
+
+/* Base styles for the tooltip's content area */
+
+.tooltip:after,
+[data-tooltip]:after {
+    z-index: 1000;
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 0;
+    top: 55px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #C0C5C4;
+    border-radius: 100px;
+    font-family: Lato;
+    font-size: 10px;
+    line-height: 12px;
+    color: #979F9D;
+}
+
+
+/* Directions */
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip-top:hover:before,
+.tooltip-top:hover:after {
+    -webkit-transform: translateY(-12px);
+    -moz-transform: translateY(-12px);
+    transform: translateY(-12px);
+}

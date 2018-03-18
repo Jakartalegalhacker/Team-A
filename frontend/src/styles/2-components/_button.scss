@@ -1,0 +1,116 @@
+/*BUTTON*/
+
+.btn {
+  font-family: "Dosis" !important;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 16px;
+  text-decoration: none;
+  padding: 7px 15px 9px;
+  height: 32px;
+  border-radius: 61px;
+  min-width: 100px;
+  moz-border-radius: 61px;
+  webkit-border-radius: 61px;
+  outline: none;
+  display: flex;
+  font-weight: 300;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-bottom: 0;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  & > :not(:first-child) {
+    margin-left: 8px;
+  }
+  & > * {
+    display: flex !important;
+  }
+  &.circle {
+    width: 40px;
+    padding: 0px;
+    border-radius: 50%;
+    moz-border-radius: 50%;
+    webkit-border-radius: 50%;
+  }
+  &.second {
+    height: 30px;
+    border-radius: 100px;
+    moz-border-radius: 100px;
+    webkit-border-radius: 100px;
+    padding: 6px 15px 8px;
+  }
+
+  &.sm {
+    height: 30px;
+    border-radius: 100px;
+    moz-border-radius: 100px;
+    webkit-border-radius: 100px;
+    padding: 6px 15px 8px;
+    &.circle {
+      width: 30px;
+      padding: 0px;
+      border-radius: 50%;
+      moz-border-radius: 50%;
+      webkit-border-radius: 50%;
+    }
+  }
+  &.big-width {
+    width: 127px;
+  }
+  &.link {
+    background: none;
+    border: none;
+    border-radius: 0px;
+    height: 25px;
+    border-bottom: 1px solid;
+    padding: 0px;
+    .first {
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+  &.primary {
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+}
+.icon-button {
+  font-family: "Dosis" !important;
+  font-size: 14px;
+  line-height: 16px;
+  outline: none;
+  border: none;
+  background: none;
+  & > i {
+    font-size: 14px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+}
+
+/* BEHAVIOUR */
+
+@include media("<1400px") {
+  .btn.collapsible {
+    width: 40px;
+    &.sm {
+      width: 30px;
+    }
+    padding: 0px;
+    border-radius: 50%;
+    moz-border-radius: 50%;
+    webkit-border-radius: 50%;
+    & > .collaps-item {
+      display: none !important;
+    }
+  }
+}

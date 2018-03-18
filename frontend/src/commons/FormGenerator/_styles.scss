@@ -1,0 +1,50 @@
+:local(.block_input) {
+  display: flex;
+  flex-direction: column;
+  &>p:first-child{
+    margin-bottom: 4px!important;
+    font-size: 12px;	
+    font-weight: 500;	
+    line-height: 14px;	
+    text-align: center;
+    align-self: center;
+  }
+  & > div {
+    width: 100%;
+    & > .react-datepicker-wrapper {
+      width: 100%;
+      .react-datepicker__input-container {
+        width: 100%;
+      }
+      .react-datepicker__input-container input {
+        background-color: red;
+        padding: 15px 13px 11px;
+        outline: 0;
+        font-size: 15px;
+        width: 100%;
+        display: block;
+        margin: auto;
+        color: white;
+        background: transparent;
+        box-sizing: border-box;
+        border: 0.5px solid #424242;
+        border-radius: 4px;
+        color: white;
+        text-align: center;
+      }
+    }
+  }
+}
+
+:local(.block_disabled) {
+  & > p {
+    text-align: left;
+    width: 400px;
+  }
+}
+
+:local(.error_message) {
+  font-size: 11px;
+  margin-top: 3px;
+  color: red !important;
+}

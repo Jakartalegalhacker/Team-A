@@ -1,0 +1,725 @@
+/* COLOR VARIABLES */
+/* PRIMARY & SECONDARY */
+/* B/W */
+/* COLOR VARIABLES */
+.default {
+  /*
+    BACKGROUND
+   */
+  background-color: #090923;
+  /*
+    TEXT
+   */
+  /*
+    FORM
+   */
+  /* COLOR THEME BUTTON */
+  /*
+    for component switch
+   */
+}
+.default .modal-dialog {
+  background: #090923;
+}
+.default .modal-dialog > div::-webkit-scrollbar {
+  display: none;
+}
+.default .overlay {
+  color: white;
+}
+.default .overlay h1,
+.default .overlay h2,
+.default .overlay h3,
+.default .overlay h4,
+.default .overlay h5,
+.default .overlay h6 {
+  color: white;
+}
+.default .overlay h1.secondary,
+.default .overlay h2.secondary,
+.default .overlay h3.secondary,
+.default .overlay h4.secondary,
+.default .overlay h5.secondary,
+.default .overlay h6.secondary {
+  color: #d8d8d8;
+}
+.default .overlay h1.hint,
+.default .overlay h2.hint,
+.default .overlay h3.hint,
+.default .overlay h4.hint,
+.default .overlay h5.hint,
+.default .overlay h6.hint {
+  color: #cccccc;
+}
+.default .overlay p {
+  color: #d8d8d8;
+}
+.default .overlay p.primary {
+  color: #666666;
+}
+.default .overlay p.secondary {
+  color: #999999;
+}
+.default .overlay p.hint {
+  color: #cccccc;
+}
+.default .overlay p.highlight {
+  color: white;
+}
+.default .overlay input.form-control,
+.default .overlay textarea.form-control {
+  border: 0.5px solid #424242;
+  border-radius: 4px;
+  color: white;
+  /* change [input cursor color] by this*/
+}
+.default .overlay input.form-control::-webkit-input-placeholder,
+.default .overlay textarea.form-control::-webkit-input-placeholder {
+  /* change [input font] by this*/
+  opacity: 0.7;
+}
+.default .overlay input.form-control:-moz-placeholder,
+.default .overlay textarea.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  opacity: 0.23;
+}
+.default .overlay input.form-control::-moz-placeholder,
+.default .overlay textarea.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  opacity: 0.23;
+}
+.default .overlay input.form-control:-ms-input-placeholder,
+.default .overlay textarea.form-control:-ms-input-placeholder {
+  opacity: 0.23;
+}
+.default .overlay input.form-control:focus,
+.default .overlay textarea.form-control:focus {
+  border: 0.5px solid #1292ff;
+}
+.default .common {
+  color: #ffffff;
+}
+.default .common h1,
+.default .common h2,
+.default .common h3,
+.default .common h4,
+.default .common h5,
+.default .common h6 {
+  color: white;
+}
+.default .common h1.secondary,
+.default .common h2.secondary,
+.default .common h3.secondary,
+.default .common h4.secondary,
+.default .common h5.secondary,
+.default .common h6.secondary {
+  color: white;
+}
+.default .common h1.hint,
+.default .common h2.hint,
+.default .common h3.hint,
+.default .common h4.hint,
+.default .common h5.hint,
+.default .common h6.hint {
+  color: #cccccc;
+}
+.default .common .form-container .detail-text p {
+  color: white;
+}
+.default .common .sidebar > .list-link .row-link:hover,
+.default .common .sidebar > .list-link .row-link:active {
+  background: #1f1f76;
+}
+.default .common .sidebar > .list-link .row-link:hover > a:first-child,
+.default .common .sidebar > .list-link .row-link:active > a:first-child {
+  color: #00ffff;
+}
+.default .common .sidebar > .list-link .row-link > a:first-child,
+.default .common .sidebar > .list-link .row-link > a:only-child {
+  color: white;
+}
+.default
+  .common
+  .sidebar
+  > .list-link
+  .row-link
+  > a:last-child:not(:only-child) {
+  color: #757575;
+}
+.default
+  .common
+  .sidebar
+  > .list-link
+  .row-link
+  > a:last-child:not(:only-child):hover,
+.default
+  .common
+  .sidebar
+  > .list-link
+  .row-link
+  > a:last-child:not(:only-child).active {
+  color: white;
+}
+.default .superadmin {
+  color: #ffffff;
+  text-shadow: 0 0 3px 0 rgba(46, 225, 255, 0.5);
+}
+.default .superadmin h1,
+.default .superadmin h2,
+.default .superadmin h3,
+.default .superadmin h4,
+.default .superadmin h5,
+.default .superadmin h6 {
+  color: white;
+}
+.default .superadmin h1.secondary,
+.default .superadmin h2.secondary,
+.default .superadmin h3.secondary,
+.default .superadmin h4.secondary,
+.default .superadmin h5.secondary,
+.default .superadmin h6.secondary {
+  color: white;
+}
+.default .superadmin h1.hint,
+.default .superadmin h2.hint,
+.default .superadmin h3.hint,
+.default .superadmin h4.hint,
+.default .superadmin h5.hint,
+.default .superadmin h6.hint {
+  color: #cccccc;
+}
+.default .superadmin p {
+  color: white;
+}
+.default .superadmin p.primary {
+  color: #666666;
+}
+.default .superadmin p.secondary {
+  color: #999999;
+}
+.default .superadmin p.hint {
+  color: #cccccc;
+}
+.default .superadmin p.highlight {
+  color: white;
+}
+.default .superadmin .sidebar > .list-link .row-link:hover,
+.default .superadmin .sidebar > .list-link .row-link:active {
+  background: #1f1f76;
+}
+.default .superadmin .sidebar > .list-link .row-link:hover > a:first-child,
+.default .superadmin .sidebar > .list-link .row-link:active > a:first-child {
+  color: #00ffff;
+}
+.default .superadmin .sidebar > .list-link .row-link > a:first-child,
+.default .superadmin .sidebar > .list-link .row-link > a:only-child {
+  color: white;
+}
+.default
+  .superadmin
+  .sidebar
+  > .list-link
+  .row-link
+  > a:last-child:not(:only-child) {
+  color: #757575;
+}
+.default
+  .superadmin
+  .sidebar
+  > .list-link
+  .row-link
+  > a:last-child:not(:only-child):hover,
+.default
+  .superadmin
+  .sidebar
+  > .list-link
+  .row-link
+  > a:last-child:not(:only-child).active {
+  color: white;
+}
+.default .tab-content-background {
+  background-color: #f8f8f8;
+}
+.default .sidebar-background {
+  background-color: #273449;
+}
+.default .icons.setting {
+  background-color: #cccccc;
+}
+.default .icons.edit {
+  color: #666666;
+}
+.default .icons.project {
+  background-color: #666666;
+}
+.default .icons.project:hover {
+  background-color: #4076fb;
+}
+.default .icons.gallery-detail {
+  color: white;
+}
+.default .icons.sizing {
+  color: white;
+}
+.default .icons.sizing:hover {
+  color: #4076fb;
+}
+.default .logo-header {
+  background: -webkit-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.default .bg-first {
+  background: #edf1f6;
+}
+.default .bg-second {
+  background: #f8f8f8;
+}
+.default h1,
+.default h2,
+.default h3,
+.default h4,
+.default h5,
+.default h6 {
+  color: #666666;
+}
+.default h1.secondary,
+.default h2.secondary,
+.default h3.secondary,
+.default h4.secondary,
+.default h5.secondary,
+.default h6.secondary {
+  color: white;
+}
+.default h1.hint,
+.default h2.hint,
+.default h3.hint,
+.default h4.hint,
+.default h5.hint,
+.default h6.hint {
+  color: #cccccc;
+}
+.default p {
+  color: #333333;
+}
+.default p.primary {
+  color: #666666;
+}
+.default p.secondary {
+  color: #999999;
+}
+.default p.hint {
+  color: #cccccc;
+}
+.default p.highlight {
+  color: white;
+}
+.default input.form-control,
+.default textarea.form-control {
+  background: transparent;
+  border: 0.5px solid #424242;
+  border-radius: 4px;
+  color: white;
+  /* change [input cursor color] by this*/
+}
+.default input.form-control::-webkit-input-placeholder,
+.default textarea.form-control::-webkit-input-placeholder {
+  /* change [input font] by this*/
+  opacity: 0.7;
+}
+.default input.form-control:-moz-placeholder,
+.default textarea.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  opacity: 0.23;
+}
+.default input.form-control::-moz-placeholder,
+.default textarea.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  opacity: 0.23;
+}
+.default input.form-control:-ms-input-placeholder,
+.default textarea.form-control:-ms-input-placeholder {
+  opacity: 0.23;
+}
+.default input.form-control:focus,
+.default textarea.form-control:focus {
+  border: 0.5px solid #1292ff;
+  color: white;
+}
+.default .navbar-link {
+  color: #79d8ff;
+}
+.default .navbar-link:hover {
+  text-decoration: underline #79d8ff !important;
+}
+.default .navbar-link.active {
+  color: #171717;
+  text-decoration: none !important;
+}
+.default .combobox > .toggle-button {
+  border-radius: 4px;
+  border: 0.5px solid #424242;
+  background: transparent;
+}
+.default .combobox > .toggle-button > p {
+  color: white;
+}
+.default .combobox > .toggle-button > i {
+  color: #424242;
+}
+.default .combobox > .content-container {
+  border: 0.5px solid #424242;
+}
+.default .combobox > .content-container > .option-row {
+  background: #090923;
+}
+.default .combobox > .content-container > .option-row:hover {
+  background: white;
+}
+.default .combobox > .content-container > .option-row:hover > p {
+  color: #424242;
+}
+.default .combobox.active > .toggle-button {
+  border: 0.5px solid #1292ff;
+}
+.default .btn.primary {
+  color: white;
+  background: -webkit-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: -o-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: linear-gradient(to left, #00f2fe 0%, #4facfe 100%);
+}
+.default .btn.primary > .icons {
+  background-color: #4076fb;
+}
+.default .btn.primary:hover {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.26);
+}
+.default .btn.primary[disabled] {
+  background-color: #9fbae5;
+}
+.default .btn.second {
+  color: #79d8ff;
+  border: solid 1px #79d8ff;
+  background: none;
+}
+.default .btn.second:hover {
+  background: -webkit-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: -o-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: linear-gradient(to left, #00f2fe 0%, #4facfe 100%);
+  color: white;
+  border: solid 1px transparent;
+}
+.default .btn.second[disabled] {
+  border-color: #9fbae5;
+  color: #9fbae5;
+}
+.default .btn.third {
+  color: white;
+  background: -webkit-linear-gradient(right, #ff75f1 0%, #ff0b98 100%);
+  background: -o-linear-gradient(right, #ff75f1 0%, #ff0b98 100%);
+  background: linear-gradient(to left, #ff75f1 0%, #ff0b98 100%);
+}
+.default .btn.third > .icons {
+  background-color: #4076fb;
+}
+.default .btn.third:hover {
+  background: -webkit-linear-gradient(right, #ff75f1 0%, #ff0b98 100%);
+  background: -o-linear-gradient(right, #ff75f1 0%, #ff0b98 100%);
+  background: linear-gradient(to left, #ff75f1 0%, #ff0b98 100%);
+  box-shadow: inset 0 0 11px 0 rgba(0, 0, 0, 0.3);
+}
+.default .btn.third[disabled] {
+  background: #ececec;
+}
+.default .btn.other {
+  outline: none;
+  margin-left: 5px;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 20px;
+  width: 150px;
+  color: #fff;
+  height: 30px;
+  cursor: pointer;
+}
+.default .btn.other:hover {
+  background: -webkit-linear-gradient(right, #ff75f1 0%, #ff0b98 100%);
+  background: -o-linear-gradient(right, #ff75f1 0%, #ff0b98 100%);
+  background: linear-gradient(to left, #ff75f1 0%, #ff0b98 100%);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.06);
+  border: none;
+}
+.default .btn.other[disabled] {
+  border-color: #f8f8f8;
+  color: #b3b3b3;
+}
+.default .btn.header {
+  color: white;
+  border-color: white;
+  background-color: transparent;
+}
+.default .btn.header > .icons {
+  color: white;
+}
+.default .btn.header:hover {
+  background-color: #46cda5;
+  border-color: transparent;
+}
+.default .btn.header.active {
+  color: #46cda5;
+  background-color: white;
+}
+.default .btn.header.active > .icons {
+  background-color: #46cda5;
+}
+.default .btn.header-second {
+  color: #4076fb;
+  border-color: transparent;
+  background-color: white;
+}
+.default .btn.header-second > .icons {
+  background-color: #4076fb;
+}
+.default .btn.header-second:hover {
+  color: white;
+  background-color: #4076fb;
+}
+.default .btn.header-second:hover > .icons {
+  background-color: white;
+}
+.default .btn.header-second.active {
+  color: #46cda5;
+  background-color: white;
+}
+.default .btn.header-second.active > .icons {
+  background-color: #46cda5;
+}
+.default .btn.header.sm {
+  color: white;
+  border-color: transparent;
+  background-color: #46cda5;
+}
+.default .btn.header.sm > .icons {
+  background-color: white;
+}
+.default .btn.header.sm > p {
+  color: white;
+}
+.default .btn.header.sm:hover {
+  color: white;
+  background-color: #4076fb;
+}
+.default .btn.header.sm:hover > .icons {
+  background-color: white;
+}
+.default .btn.header.sm.active {
+  color: #46cda5;
+  background-color: white;
+}
+.default .btn.header.sm.active > .icons {
+  background-color: #46cda5;
+}
+.default .btn.header.sm.circle {
+  color: #999999;
+  border-color: #999999;
+  background-color: transparent;
+}
+.default .btn.header.sm.circle > .icons {
+  color: #999999;
+}
+.default .btn.header.sm.circle:hover {
+  color: white;
+  background-color: #4076fb;
+}
+.default .btn.header.sm.circle:hover > .icons {
+  background-color: white;
+}
+.default .btn.header.sm.circle.active {
+  color: #46cda5;
+  background-color: white;
+}
+.default .btn.header.sm.circle.active > .icons {
+  background-color: #46cda5;
+}
+.default .btn.error {
+  background-color: #ef3e36;
+  color: white;
+}
+.default .btn.info {
+  background-color: #46cda5;
+  color: white;
+}
+.default .btn.link.first {
+  color: #c7c7c7 !important;
+  border-color: #c7c7c7;
+}
+.default .btn.link.first:hover {
+  color: #171717 !important;
+  border-color: #171717;
+}
+.default .icon-button.primary {
+  background: -webkit-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: -o-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: linear-gradient(to left, #00f2fe 0%, #4facfe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.5;
+}
+.default .icon-button.primary > i {
+  background: -webkit-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: -o-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: linear-gradient(to left, #00f2fe 0%, #4facfe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.default .icon-button.primary:hover {
+  opacity: 1;
+  background: -webkit-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: -o-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: linear-gradient(to left, #00f2fe 0%, #4facfe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.default .icon-button.primary:hover > i {
+  background: -webkit-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: -o-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: linear-gradient(to left, #00f2fe 0%, #4facfe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.default .icon-button.second {
+  color: #c7c7c7;
+}
+.default .icon-button.second > i {
+  color: #c7c7c7;
+}
+.default .icon-button.second:hover {
+  background: -webkit-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: -o-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: linear-gradient(to left, #00f2fe 0%, #4facfe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.default .icon-button.second:hover > i {
+  background: -webkit-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: -o-linear-gradient(right, #00f2fe 0%, #4facfe 100%);
+  background: linear-gradient(to left, #00f2fe 0%, #4facfe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.default .dropdown_content > a:hover {
+  background-color: #f5f5f5;
+}
+.default .switchbox:before {
+  background-color: #cccccc;
+}
+.default .switchbox:hover:before,
+.default .switchbox.active:before {
+  background-color: transparent;
+}
+.default .switchbox:hover:after,
+.default .switchbox.active:after {
+  background-color: #46cda5;
+}
+
+.noty_theme__default {
+  margin-bottom: 11px;
+}
+.noty_theme__default .noty_bar {
+  margin: 4px 0;
+  overflow: hidden;
+  border-radius: 2px;
+  position: relative;
+}
+.noty_theme__default .noty_close_button {
+  position: absolute;
+  top: 23px;
+  right: 20px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: #e0e0e0;
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.noty_theme__default > .noty_body {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.noty_theme__default > .noty_body > i {
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  align-self: center;
+}
+.noty_theme__default > .noty_body > .notif-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding: 5px 0;
+}
+.noty_theme__default > .noty_body > .notif-text > p:first-child {
+  color: #424242;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+.noty_theme__default > .noty_body > .notif-text > p:nth-child(2) {
+  color: #757575;
+  font-size: 13px;
+  line-height: 15px;
+}
+.noty_theme__default .noty_buttons {
+  border-top: 1px solid #e7e7e7;
+  padding: 5px 10px;
+}
+.noty_theme__default.noty_type__alert,
+.noty_theme__default.noty_type__notification {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  color: #444;
+}
+.noty_theme__default.noty_type__warning {
+  background-color: #ffeaa8;
+  border: 1px solid #ffc237;
+  color: #826200;
+}
+.noty_theme__default.noty_type__warning .noty_buttons {
+  border-color: #dfaa30;
+}
+.noty_theme__default.noty_type__success {
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.22);
+}
+.noty_theme__default.noty_type__success > .noty_body > i {
+  color: #38f9d7;
+}
+.noty_theme__default.noty_type__failed {
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.22);
+}
+.noty_theme__default.noty_type__failed > .noty_body > i {
+  color: #f74f4f;
+}
+.noty_theme__default.noty_type__failed .noty_buttons {
+  border-color: darkred;
+}
+.noty_theme__default.noty_type__info,
+.noty_theme__default.noty_type__information {
+  background-color: #78c5e7;
+  border: 1px solid #3badd6;
+  color: #fff;
+}
+.noty_theme__default.noty_type__info .noty_buttons,
+.noty_theme__default.noty_type__information .noty_buttons {
+  border-color: #0b90c4;
+}

@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Dosis";
+  src:url("../../assets/fonts/Dosis-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: "Dosis-SemiBold";
+  src:url("../../assets/fonts/Dosis-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dosis-Medium";
+  src:url("../../assets/fonts/Dosis-Medium.ttf");
+  font-weight:700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dosis-Bold";
+  src:url("../../assets/fonts/Dosis-Bold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+html,body{
+  font-family: "Dosis";
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Dosis";
+
+  margin:0px;
+}
+h1{
+  font-size:48px;
+  font-weight:700;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+h2{
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  &.secondary{
+    letter-spacing: 2px;
+  }
+}
+h3{
+  font-size: 30px;
+  line-height: 37px;
+}
+h4{
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 500;
+  &.secondary{
+    letter-spacing: 1px;
+  }
+}
+h5{
+  font-size: 16px;
+  line-height: 18px;
+  font-weight:bold;
+  &.secondary{
+    letter-spacing: 1px;
+  }
+}
+.fw-light{
+  font-weight: 300;
+}
+.fw-medium{
+  font-weight: 500;
+}
+.fw-bold{
+  font-weight: bold;
+}
+p{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  &:first-letter{
+    text-transform: capitalize;
+  }
+  &.xxs{
+    font-size: 12px;
+  }
+  &.xxxs{
+    font-size: 11px;
+  }
+
+
+
+}
+a{
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration: none !important;
+  cursor: pointer;
+  a:hover{
+    text-decoration: none !important;
+  }
+}
+.uppercase{
+  text-transform: uppercase;
+}

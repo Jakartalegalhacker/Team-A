@@ -1,0 +1,36 @@
+.tab-div{
+  position: relative;
+  &>.tab-text{
+    opacity: .8;
+    &.sm:before{
+      width: 40%;
+      left:30%;
+
+    }
+    &:before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: 0px;
+      left: 0;
+      background-color: white;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+  }
+
+  &>.tab-text:hover,&>.tab-text:focus,&.active>.tab-text{
+    font-weight: bolder;
+    background-color: transparent;
+    opacity: 1;
+    &:before{
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+  }
+}

@@ -1,0 +1,81 @@
+
+:local(.error_message){
+  font-size: 11px;
+  margin-top:3px;
+  color:red;
+}
+:local(.container){
+  position: relative;
+  display: flex;
+  min-width: 100px;
+  flex-direction: column;
+
+  span{
+    border: 1px solid #a7abb2;
+  }
+  &:not(.form-group)>:local(.toggle_button){
+    width:100%;
+  }
+  :local(.toggle_button){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 7px 5px 6px 10px;
+    background-color: white;
+    &>p{
+      display: flex;
+      font-size: 12px;
+    }
+    &>i{
+      display: flex;
+      font-size: 12px;
+      margin-left: 5px;
+    }
+  }
+  :local(.content){
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    border-radius: 2px;
+    border:1px solid #CCCCCC;
+    z-index: 99;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+    }
+    /* optional: show position indicator in red */
+    &::-webkit-scrollbar-thumb {
+      background: #FF0000;
+    }
+    top:40px;
+    &.active &{
+      display: flex;
+    }
+    &>a,&>div{
+      background-color: white;
+      padding: 6px 15px;
+      color:#333333;
+      text-transform: uppercase;
+      &>p{
+        text-align: left !important;
+        font-size: 12px;
+      }
+      &:hover{
+        background-color: #EDF1F6;
+      }
+    }
+  }
+  &.active{
+    & .toggle_button{
+      border:1px solid;
+    }
+    & :local(.content){
+      display: flex;
+
+    }
+  }
+}
