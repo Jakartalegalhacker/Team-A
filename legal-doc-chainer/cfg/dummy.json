@@ -1,0 +1,19 @@
+{
+  "public": {
+    "next_index": 2,
+    "digest": [
+      "927e98474da970006827ce870d6a9e65",
+      "8e4dd2e319e69b971f3372cba7a384dd"
+    ]
+  },
+  "documents": {
+    "927e98474da970006827ce870d6a9e65": {
+      "link": "cfg/request.pdf",
+      "index": 0
+    },
+    "8e4dd2e319e69b971f3372cba7a384dd": {
+      "link": "cfg/sample.pdf",
+      "index": 1
+    }
+  }
+}

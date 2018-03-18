@@ -1,0 +1,31 @@
+{
+    "nonce": "7093415622447682292", 
+    "count": {
+        "out": 1, 
+        "in": 1
+    }, 
+    "timestamp": "2018-03-18 16:32:40.074194", 
+    "version": "0.0.1", 
+    "input": {
+        "0": {
+            "trx_block": "0018b04e68e473d8f3ee1a3ccc94575d079bab72403276e0e5edc3b4452e767e", 
+            "idx": 0, 
+            "clientID": "Freddy Wijaya", 
+            "authorID": "Notaris A", 
+            "signature": "BuYDdg0YRoBQ0rUd0bkDMS8t3mpnkBkWJelJBfZ1l2wI5x4TVBYktAXUeAufCnY0zGjCLmxulyDwLQIU+WQm5r+G3L4CdDD2RZo20O6YtBcP1OFURiK39wqLFfjRBzi4s62V3pfZlK8kVyMaV45jIeYCvH4EEkJBrdKDOHzcDD9vHOYvcAt6sjGGsiFTYrbpVIf/8DEBjNA3/q2Ljv13vFFXqLKlv6JkP3w2iE7qV022OgGaJ8EuTUxPELuyQCUaWBpONH5SIF3hjVGfVNoQ0/foqh64v6dPVMnVHKLDriVlNtb9kx2lAPMC6O45GSJflOEVpjlFKL1lrrFM5JsgaA==", 
+            "pub_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh2SOXnMfUy2mdFbxFTMI\ni7hd1wiQ05u6pV+McrT5R4K/j8X0CsnKBYQj5bqzUEJXn8c461km+9wxO/r/kNe/\nBW/D9XHA4xLHLcxT0jFxile0S2Oh0JOuXvyAz3C0zhJwb1ELsaqI6QvuzTki2fLz\n0+UJ0zLpmtn2nQ8ZKApd0X4dvkcH29Eyu5rhylAp00dJKSr5fL8F2YdkLGBvlM9v\nBpwKr/X8R9nIIXq28laVHOT8nc57SnP52G8mWgX3L9dtIuNaIa1otRzqdHZ9Y35r\nZ1/Ja77+GMQtsSq6hT2qHMnSeNjG8xkE9wIdpM/1vdnZbzcqoIT7sEoK6inOuz1F\nowIDAQAB\n-----END PUBLIC KEY-----", 
+            "digest": "927e98474da970006827ce870d6a9e65"
+        }
+    }, 
+    "output": {
+        "0": {
+            "trx_block": "dab145427f5d7f75e4ff4569e818537855f78f55cc8017c2ecb5410c95c13e6d", 
+            "idx": 1, 
+            "clientID": "Freddy Wijaya", 
+            "authorID": "Notaris A", 
+            "signature": "gWkibsHQae/tX7L5vkJW0zhIswbHbMsyWQLENUzteFc5S5RLjP7G8ASF/aiLtyAD+FHXFZ6c3qlDcYAKhzRFFY8Jg+j8tElPn6vdg7pssmI1cwkZRQpxmhZeWtzCet6RCq+O1SiR5l7x/QlQO6dSiyU+NbyZVvGcRDWaqGoZNZe7tnM1HiACZFgq5cVNAUPEtJFXBEeTS/qwDiwiQT7XjqmsIX0AfRWx3bzaQMDm+9Pr9GHiU1LUUkvInILB2H6FSWLhpydI+aaFoLhd0QAusBRcDNAwYCisNN4uceAHEyPg1gHveAwPDtYsnalaQeOL6GVTM/e/LLdoGwSyI91DnA==", 
+            "pub_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlzPVvOpOFMddhOdKx7hI\npWHUBBmsPL5GOv3pyOM+ai1XWYOf3jWVVR5ksvuKCpr07CWLVJNvj6vkq91zijRB\nIVVfy6YVdb+dIsEea6WIBmDE9hoOaT7lvzvLOFqcxhttb/iCia2Sk5PrgiOtbRpG\np7TMsm+qg/eh/C1fIVIIRigkteoUZMpqdlWS/+QZOQ5L6jtbpMmZWJXlzWuT8AOH\n8rXO8klxHbr4IqGr7X/yn5e7xppxTWcT9I0m8dXd8Nb07D7PCr7sp44qJ3d6XWsZ\n8pqGYxK1u3sjqO2b3hISyUInaJwDHt0Bf2dGr3wY54vnzJxD6n7RJesUXaD6rMcE\n1QIDAQAB\n-----END PUBLIC KEY-----", 
+            "digest": "8e4dd2e319e69b971f3372cba7a384dd"
+        }
+    }
+}

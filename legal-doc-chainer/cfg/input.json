@@ -1,0 +1,20 @@
+{
+    "nonce": "13997656286175381560", 
+    "count": {
+        "out": 1, 
+        "in": 0
+    }, 
+    "version": "0.0.1", 
+    "output": {
+        "0": {
+            "trx_block": "0018b04e68e473d8f3ee1a3ccc94575d079bab72403276e0e5edc3b4452e767e", 
+            "idx": 0, 
+            "clientID": "Freddy Wijaya", 
+            "authorID": "Notaris A", 
+            "signature": "BuYDdg0YRoBQ0rUd0bkDMS8t3mpnkBkWJelJBfZ1l2wI5x4TVBYktAXUeAufCnY0zGjCLmxulyDwLQIU+WQm5r+G3L4CdDD2RZo20O6YtBcP1OFURiK39wqLFfjRBzi4s62V3pfZlK8kVyMaV45jIeYCvH4EEkJBrdKDOHzcDD9vHOYvcAt6sjGGsiFTYrbpVIf/8DEBjNA3/q2Ljv13vFFXqLKlv6JkP3w2iE7qV022OgGaJ8EuTUxPELuyQCUaWBpONH5SIF3hjVGfVNoQ0/foqh64v6dPVMnVHKLDriVlNtb9kx2lAPMC6O45GSJflOEVpjlFKL1lrrFM5JsgaA==", 
+            "pub_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh2SOXnMfUy2mdFbxFTMI\ni7hd1wiQ05u6pV+McrT5R4K/j8X0CsnKBYQj5bqzUEJXn8c461km+9wxO/r/kNe/\nBW/D9XHA4xLHLcxT0jFxile0S2Oh0JOuXvyAz3C0zhJwb1ELsaqI6QvuzTki2fLz\n0+UJ0zLpmtn2nQ8ZKApd0X4dvkcH29Eyu5rhylAp00dJKSr5fL8F2YdkLGBvlM9v\nBpwKr/X8R9nIIXq28laVHOT8nc57SnP52G8mWgX3L9dtIuNaIa1otRzqdHZ9Y35r\nZ1/Ja77+GMQtsSq6hT2qHMnSeNjG8xkE9wIdpM/1vdnZbzcqoIT7sEoK6inOuz1F\nowIDAQAB\n-----END PUBLIC KEY-----", 
+            "digest": "927e98474da970006827ce870d6a9e65"
+        }
+    }, 
+    "timestamp": "2018-03-18 16:32:39.994965"
+}
